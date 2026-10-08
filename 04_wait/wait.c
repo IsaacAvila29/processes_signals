@@ -1,4 +1,4 @@
-/* wait.c - Como fork1.c, pero el padre espera al hijo con wait()
+/* Código 3.5 - wait.c - Como fork1.c, pero el padre espera al hijo con wait()
    y revisa su codigo de salida (37) con las macros de sys/wait.h. */
 #include <sys/types.h>
 #include <sys/wait.h>

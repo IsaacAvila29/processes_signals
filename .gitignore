@@ -1,0 +1,6 @@
+# Ejecutables: todo lo que no sea fuente .c dentro de las carpetas de programas
+/[0-9][0-9]_*/*
+!/[0-9][0-9]_*/*.c
+
+# Archivos de prueba generados por las demos
+file.txt

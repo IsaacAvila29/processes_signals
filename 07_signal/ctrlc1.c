@@ -1,4 +1,4 @@
-/* ctrlc1.c - Captura Ctrl+C (SIGINT) con signal().
+/* Código 4.3 - ctrlc1.c - Captura Ctrl+C (SIGINT) con signal().
    El primer Ctrl+C imprime un mensaje; el manejador restaura la accion
    por defecto, asi que el segundo Ctrl+C termina el programa. */
 #include <signal.h>

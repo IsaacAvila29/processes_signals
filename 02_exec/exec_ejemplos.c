@@ -1,4 +1,4 @@
-/* exec_ejemplos.c - Las seis variantes de exec para lanzar ps.
+/* Código 3.2 - exec_ejemplos.c - Las seis variantes de exec para lanzar ps.
    - l (execl*): argumentos como lista, terminada en 0
    - v (execv*): argumentos como arreglo
    - p: busca el programa en el PATH

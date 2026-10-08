@@ -1,4 +1,4 @@
-/* fork2.c - Igual que fork1.c pero con los conteos invertidos:
+/* Código 3.6 - fork2.c - Igual que fork1.c pero con los conteos invertidos:
    el hijo termina primero y, como el padre no llama a wait(),
    queda como zombie (<defunct>) hasta que el padre acaba.
    Pruebalo con:  ./fork2 &   y luego   ps -al */

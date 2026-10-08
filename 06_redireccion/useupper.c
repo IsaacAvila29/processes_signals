@@ -1,4 +1,4 @@
-/* useupper.c - Ejecuta el filtro upper sobre un archivo.
+/* Código 3.9 - useupper.c - Ejecuta el filtro upper sobre un archivo.
    Redirige stdin al archivo y luego reemplaza el proceso con upper;
    como los descriptores abiertos se conservan tras exec, upper lee
    del archivo. Equivale a:  ./upper < file.txt */

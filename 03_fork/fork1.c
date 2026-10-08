@@ -1,4 +1,4 @@
-/* fork1.c - Crea un hijo con fork(). El hijo imprime 5 mensajes y el padre 3.
+/* Código 3.4 - fork1.c - Crea un hijo con fork(). El hijo imprime 5 mensajes y el padre 3.
    El padre termina primero, por eso el prompt del shell aparece
    mezclado con la salida del hijo. */
 #include <sys/types.h>

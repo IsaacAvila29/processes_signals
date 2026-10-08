@@ -1,4 +1,4 @@
-/* alarm.c - Simula un despertador con fork(), kill() y pause().
+/* Código 4.7 y 4.8 - alarm.c - Simula un despertador con fork(), kill() y pause().
    El hijo espera 5 segundos y le manda SIGALRM al padre;
    el padre se suspende con pause() hasta recibir la senal. */
 #include <sys/types.h>

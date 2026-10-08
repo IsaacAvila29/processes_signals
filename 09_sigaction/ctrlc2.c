@@ -1,4 +1,4 @@
-/* ctrlc2.c - Version de ctrlc1.c con sigaction(), la interfaz recomendada.
+/* Código 4.10 - ctrlc2.c - Version de ctrlc1.c con sigaction(), la interfaz recomendada.
    El manejador no se reinicia, asi que cada Ctrl+C imprime el mensaje.
    Para salir usa Ctrl+\ (SIGQUIT). */
 #include <signal.h>

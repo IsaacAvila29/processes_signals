@@ -1,4 +1,4 @@
-/* system1.c - Ejecuta "ps ax" desde un programa usando system().
+/* Código 3.1 - system1.c - Ejecuta "ps ax" desde un programa usando system().
    system() lanza un shell (sh -c) y espera a que el comando termine. */
 #include <stdlib.h>
 #include <stdio.h>
